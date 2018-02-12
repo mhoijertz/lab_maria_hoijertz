@@ -1,0 +1,174 @@
+
+body {background-color: #fff;
+	color: black;
+	width: 100%;
+
+}
+
+/*index*/
+
+.book2 {
+	width: 100%;
+}
+
+h1 {color: black;
+	font-size: 100px;
+	text-align: center;
+
+}
+
+ul {
+    margin: 0 auto;
+}
+
+ul li {
+	font-size: 14px;
+	float: left;
+	padding: 30px;
+    list-style: none;
+    margin: 0 auto;
+}
+
+ul li a {
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #fcbf0a;
+}
+
+#main li .active {
+    color: #fcbf0a;
+}
+
+body p {
+	text-align: center;
+	font-size: 16px;
+	color: black;
+}
+
+footer div.text {
+	background-color: #fcbf0a;
+	float: left;
+    height: 40px;
+  	padding: 0.5rem;
+    margin: 30px 0 0 0;
+  	text-align: center;
+  	width: 100%;
+}
+
+footer div.text p {
+	color: white;
+	font-family: opensans;
+	font-size: 14px;
+
+}
+
+/*about us*/
+
+div.about {
+	width: 500px;
+	margin: 50px 5px 0 5px;
+    
+}
+
+div.about p {
+    
+	
+}
+.book {
+	width: 500px;
+	height: 300px;
+	
+}
+/*Browse books*/
+
+form {
+    float: left;
+}
+
+fieldset {
+    float: left;
+
+}
+
+
+/* my books*/
+
+table {
+    border-spacing: 5px;
+
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+
+th, td {
+    padding: 15px;
+    color: black;
+}
+
+th {
+    text-align: left;
+}
+
+table#t01 {
+    width: 100%; 
+    background-color: white;
+
+}
+
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+
+/*contact*/
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+ 
+}
+
+input[type=submit] {
+    background-color: #fcbf0a;
+    color: white;
+    padding: 12px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: opensans;
+    font-weight: bold;
+    font-size: 14px;
+
+}
+
+
+input[type=submit]:hover {
+    background-color: #000;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #e9e9e9;
+    padding: 20px;
+    float: left;
+    font-family: opensans;
+    font-weight: bold;
+}
+ /*user*/
+form {
+    float: left;
+}
+
